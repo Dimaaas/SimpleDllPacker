@@ -17,7 +17,7 @@ namespace DiDLLCompiler
         [MenuItem("Window/Utilities/DLL Packer")]
         static void ShowWindow()
         {
-            var titleImg = EditorGUIUtility.IconContent("Grid.MoveTool").image;
+            var titleImg = EditorGUIUtility.IconContent("Project").image;
             var titleLabel = "DLL Packer";
 
             var w = new WindowCompiler()
